@@ -12,7 +12,8 @@ function App() {
   //Add favorite only if not already present
   function addFavorite(property) {
     setFavorites((prev) => {
-      if (prev.find ((p) => p.id === property.id)) return prev;
+      if (prev.find ((p) => p.id === property.id)) 
+        return prev;
       return [...prev, property];
     });
   }
