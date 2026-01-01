@@ -9,6 +9,14 @@ export default function PropertyCard({
     addFavorite,
     removeFavorite }) {
 
+    const [{ isDragging }, drag] = useDrag(() => ({
+        type: ItemTypes.PROPERTY,
+        item: { property },
+        collect: (monitor) => ({
+            isDragging: !!monitor.isDragging(),
+        }),
+    }));    
+
     return (
         <div
             ref={drag}
@@ -18,6 +26,11 @@ export default function PropertyCard({
                 borderRadius: '8px',
                 padding: '0.5rem',
                 backgroundColor: '#fff',
+                opacity: isDragging ? 0.5 : 1,
+                cursor: 'move',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-between',
             }}
         >
             <Link to={`/property/${property.id}`}>
