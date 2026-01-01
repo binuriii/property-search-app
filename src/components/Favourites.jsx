@@ -2,8 +2,43 @@ import React from "react";
 import { useDrop } from 'react-dnd';
 import { ItemTypes } from '../dndTypes';
 
+function RemoveZone({ removeFavorite }) {
+    const [{ isOver, canDrop }, drop] = useDrop({
+        accept: [ItemTypes.FAVORITE],
+        drop: (item) => {
+            removeFavorite(item.id);
+        },
+        collect: (monitor) => ({
+            isOver: !!monitor.isOver(),
+            canDrop: !!monitor.canDrop(),
+        }),
+    });
+
+    return (
+        <div
+            ref={drop}
+            style={{
+                marginTop: '1rem',
+                padding: '1rem',
+                border: '2px dashed red',
+                borderRadius: '8px',
+                backgroundColor: isOver && canDrop ? '#ffecec' : '#fff0f0',
+                color: 'red',
+                textAlign: 'center',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+                userSelect: 'none',
+            }}
+            aria-label="Remove favorite drop zone"
+        >
+            Drag here to remove favorite
+        </div>    
+    );
+}
+
 export default function Favourites({
     favorites,
+    addFavorite,
     removeFavorite,
     clearFavorites
 }) {
