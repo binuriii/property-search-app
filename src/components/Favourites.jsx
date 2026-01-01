@@ -1,4 +1,6 @@
 import React from "react";
+import { useDrop } from 'react-dnd';
+import { ItemTypes } from '../dndTypes';
 
 export default function Favourites({
     favorites,
@@ -6,8 +8,19 @@ export default function Favourites({
     clearFavorites
 }) {
 
+    const [{ isOver }, drop] = useDrop({
+        accept: ItemTypes.PROPERTY,
+        drop: (item) => {
+            addFavorite(item.property);
+        },
+        collect: (monitor) => ({
+            isOver: !!monitor.isOver(),
+        }),
+    });
+
     return (
-        <aside 
+        <aside
+            ref={drop} 
             style={{
                 flex: '0 0 300px',
                 border: '2px dashed #007bff',
@@ -17,13 +30,13 @@ export default function Favourites({
                 borderRadius: '8px',
                 display: 'flex',
                 flexDirection: 'column',
-        }}
-        aria-label="Favorites List Drop Area"
+            }}
+            aria-label="Favorites List Drop Area"
         >
-        <h2>Favorites</h2>
-        {favorites.length === 0 ? (
-            <p>No favorite properties yet. Drag properties here or use the button.</p>
-        ) : (
+            <h2>Favorites</h2>
+            {favorites.length === 0 ? (
+                <p>No favorite properties yet. Drag properties here or use the button.</p>
+            ) : (
             <>
                 <ul
                     style={{
