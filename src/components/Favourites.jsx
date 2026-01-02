@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { useDrop } from 'react-dnd';
 import { ItemTypes } from '../dndTypes';
 
@@ -36,7 +36,7 @@ function RemoveZone({ removeFavorite }) {
     );
 }
 
-export default function Favourites({
+export default function Favorites({
     favorites,
     addFavorite,
     removeFavorite,
