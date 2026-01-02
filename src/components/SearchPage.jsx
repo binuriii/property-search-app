@@ -24,7 +24,7 @@ export default function SearchPage({
     const filteredProperties = useMemo(() => {
         return properties.filter((property) => {
             // Filter by type
-            if (searchFilters.type && searchFilters.type !== 'any' && property.type.toLowerCase() !== searchFilters.type.toLocaleLowerCase()) {
+            if (searchFilters.type && searchFilters.type !== 'any' && property.type.toLowerCase() !== searchFilters.type.toLowerCase()) {
                return false;
             }
 
@@ -32,13 +32,13 @@ export default function SearchPage({
             // Filter by price range
             if (searchFilters.minPrice && property.price < Number(searchFilters.minPrice))
                return false;
-            if (searchFilters.maxPrice && property.price < Number(searchFilters.maxPrice))
+            if (searchFilters.maxPrice && property.price > Number(searchFilters.maxPrice))
                return false;
           
             // Filter by bedrooms range
             if (searchFilters.minBedrooms && property.bedrooms < Number(searchFilters.minBedrooms))
                return false;
-            if (searchFilters.maxBedrooms && property.bedrooms < Number(searchFilters.maxBedrooms))
+            if (searchFilters.maxBedrooms && property.bedrooms > Number(searchFilters.maxBedrooms))
                return false;
           
             // Filter by date added which is afterDate

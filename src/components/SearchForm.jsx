@@ -93,7 +93,7 @@ export default function SearchForm({ searchFilters, setSearchFilters }) {
             </LocalizationProvider>
 
             <TextField
-                type='Postcode Area'
+                label='Postcode Area'
                 value={searchFilters.postcodeArea}
                 onChange={(e) => handleChange('postcodeArea', e.target.value)}
                 variant='outlined'
