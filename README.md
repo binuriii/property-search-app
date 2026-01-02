@@ -1,16 +1,39 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What this app does
 
-Currently, two official plugins are available:
+- Lets users search and browse properties
+- Shows images, price, bedrooms, location and description
+- Opens a full property detail page
+- Allows adding properties to Favorites
+- Supports drag-and-drop into Favorites
+- Prevents duplicate favorites
+- Favorites can be removed or cleared
+- Works on different screen sizes (responsive)
+  
+## Main features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Property search and filters
+- Property list and cards
+- Property detail page with tabs
+- Favorites sidebar
+- Drag and drop interaction
+- Accessible buttons and labels
 
-## React Compiler
+## Technologies used
+- React
+- React Router
+- React DnD
+- React Tabs
+- CSS
+- Vitest + Testing Library (for tests)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## What this project shows (coursework)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Single Page Application (SPA)
+- Components and props
+- State management
+- Drag-and-drop UI
+- Routing/navigation
+- Basic testing
+- Clean project structure
