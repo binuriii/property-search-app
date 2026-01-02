@@ -75,7 +75,7 @@ function FavoriteItem({ property, removeFavorite}) {
             <div>
                 <strong>{property.type}</strong>
                 <br />
-                ${property.price.toLocalesString()}
+                ${property.price.toLocaleString()}
             </div>
 
             <button
@@ -94,7 +94,7 @@ export default function Favorites({
     favorites,
     addFavorite,
     removeFavorite,
-    clearFavorites
+    clearFavorites,
 }) {
 
     const [{ isOver }, drop] = useDrop({
