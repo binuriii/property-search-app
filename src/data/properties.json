@@ -10,12 +10,12 @@
       "longDescription": "This attractive three bedroom semi-detached family home offers spacious living with two receptions and a fitted kitchen/breakfast room. Additional features include a conservatory, utility room, cloakroom, double glazing, and gas central heating. Perfectly located close to Petts Wood station and local amenities.",
       "location": "Petts Wood Road, Petts Wood, Orpington BR5",
       "pictures": [
-        "images/prop1picture1.jpg",
-        "images/prop1picture2.jpg",
-        "images/prop1picture3.jpg",
-        "images/prop1picture4.jpg",
-        "images/prop1picture5.jpg",
-        "images/prop1picture6.jpg"
+        "/images/prop1picture1.jpg",
+        "/images/prop1picture2.jpg",
+        "/images/prop1picture3.jpg",
+        "/images/prop1picture4.jpg",
+        "/images/prop1picture5.jpg",
+        "/images/prop1picture6.jpg"
       ],
       "floorPlan": "images/prop1floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.540198242766!2d0.058846315817271176!3d51.3953497796175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86be45dce85%3A0x90b6a669095b34f7!2sPetts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin",
@@ -37,13 +37,13 @@
       "longDescription": "This modern two-bedroom flat features an open plan kitchen/living area with integrated appliances and bi-folding doors leading to a private courtyard garden. It includes two bathrooms, solid wooden floors, and a 10-year building guarantee.",
       "location": "Crofton Road Orpington BR6",
       "pictures": [
-        "images/prop2picture1.jpg",
-        "images/prop2picture2.jpg",
-        "images/prop2picture3.jpg",
-        "images/prop2picture4.jpg",
-        "images/prop2picture5.jpg",
-        "images/prop2picture6.jpg",
-        "images/prop2picture7.jpg"
+        "/images/prop2picture1.jpg",
+        "/images/prop2picture2.jpg",
+        "/images/prop2picture3.jpg",
+        "/images/prop2picture4.jpg",
+        "/images/prop2picture5.jpg",
+        "/images/prop2picture6.jpg",
+        "/images/prop2picture7.jpg"
       ],
       "floorPlan": "images/prop2floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.110304682688!2d0.05678331581727123!3d51.40321217962028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86b56543e65%3A0x7a5ec5e235a2b9c2!2sCrofton%20Rd%2C%20Orpington!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
@@ -65,13 +65,13 @@
       "longDescription": "This spacious four-bedroom detached house offers a large garden perfect for families and entertaining. The modern kitchen is equipped with high-end appliances, and the open-plan living area features lots of natural light. The property includes a garage and off-street parking.",
       "location": "Green Lane, Bromley BR1",
       "pictures": [
-        "images/prop3picture1.jpg",
-        "images/prop3picture2.jpg",
-        "images/prop3picture3.jpg",
-        "images/prop3picture4.jpg",
-        "images/prop3picture5.jpg",
-        "images/prop3picture6.jpg",
-        "images/prop3picture7.jpg"
+        "/images/prop3picture1.jpg",
+        "/images/prop3picture2.jpg",
+        "/images/prop3picture3.jpg",
+        "/images/prop3picture4.jpg",
+        "/images/prop3picture5.jpg",
+        "/images/prop3picture6.jpg",
+        "/images/prop3picture7.jpg"
       ],
       "floorPlan": "images/prop3floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.312531276937!2d0.02246531581726156!3d51.40383957961887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5c145607a21%3A0x27de2d1db7d5a868!2sGreen%20Lane%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
@@ -93,12 +93,12 @@
       "longDescription": "This modern one-bedroom flat includes a balcony with stunning city views, open-plan kitchen/living area, and is ideally located near shops and transport links. The building offers secure entry and communal gardens.",
       "location": "High Street, Orpington BR5",
       "pictures": [
-        "images/prop4picture1.jpg",
-        "images/prop4picture2.jpg",
-        "images/prop4picture3.jpg",
-        "images/prop4picture4.jpg",
-        "images/prop4picture5.jpg",
-        "images/prop4picture6.jpg"
+        "/images/prop4picture1.jpg",
+        "/images/prop4picture2.jpg",
+        "/images/prop4picture3.jpg",
+        "/images/prop4picture4.jpg",
+        "/images/prop4picture5.jpg",
+        "/images/prop4picture6.jpg"
       ],
       "floorPlan": "images/prop4floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.345512789832!2d0.062345315817271!3d51.4049371796177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86c84562d9d%3A0x27e3a5f1a2f33e25!2sHigh%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
@@ -120,13 +120,13 @@
       "longDescription": "This luxurious five-bedroom detached house features a private swimming pool, landscaped gardens, spacious living areas, and a modern kitchen with high-end appliances. The property is situated in an exclusive neighborhood offering privacy and convenience.",
       "location": "Oakwood Avenue, Bromley BR2",
       "pictures": [
-        "images/prop5picture1.jpg",
-        "images/prop5picture2.jpg",
-        "images/prop5picture3.jpg",
-        "images/prop5picture4.jpg",
-        "images/prop5picture5.jpg",
-        "images/prop5picture6.jpg",
-        "images/prop5picture7.jpg"
+        "/images/prop5picture1.jpg",
+        "/images/prop5picture2.jpg",
+        "/images/prop5picture3.jpg",
+        "/images/prop5picture4.jpg",
+        "/images/prop5picture5.jpg",
+        "/images/prop5picture6.jpg",
+        "/images/prop5picture7.jpg"
       ],
       "floorPlan": "images/prop5floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.789132218434!2d0.045789315817268!3d51.40123457961982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5b7c24571db%3A0x12d4e7f2b4b2d1e7!2sOakwood%20Avenue%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
@@ -148,12 +148,12 @@
       "longDescription": "This three-bedroom flat offers a spacious living area, modern kitchen, and private parking space. Located in a gated community, it provides security and convenient access to local amenities.",
       "location": "Station Road, Orpington BR5",
       "pictures": [
-        "images/prop6picture1.jpg",
-        "images/prop6picture2.jpg",
-        "images/prop6picture3.jpg",
-        "images/prop6picture4.jpg",
-        "images/prop6picture5.jpg",
-        "images/prop6picture6.jpg"
+        "/images/prop6picture1.jpg",
+        "/images/prop6picture2.jpg",
+        "/images/prop6picture3.jpg",
+        "/images/prop6picture4.jpg",
+        "/images/prop6picture5.jpg",
+        "/images/prop6picture6.jpg"
       ],
       "floorPlan": "images/prop6floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.223456789321!2d0.055678315817270!3d51.3961234796189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86a23456b7d%3A0x12345abcd6789ef0!2sStation%20Road%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
@@ -175,12 +175,12 @@
       "longDescription": "This cozy two-bedroom terraced house offers a private garden, modern interior finishes, and is located close to local schools and amenities. Ideal for small families or first-time buyers.",
       "location": "Elm Street, Orpington BR6",
       "pictures": [
-        "images/prop7picture1.jpg",
-        "images/prop7picture2.jpg",
-        "images/prop7picture3.jpg",
-        "images/prop7picture4.jpg",
-        "images/prop7picture5.jpg",
-        "images/prop7picture6.jpg"
+        "/images/prop7picture1.jpg",
+        "/images/prop7picture2.jpg",
+        "/images/prop7picture3.jpg",
+        "/images/prop7picture4.jpg",
+        "/images/prop7picture5.jpg",
+        "/images/prop7picture6.jpg"
       ],
       "floorPlan": "images/prop7floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.567891234567!2d0.060123315817271!3d51.397891234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86d34567abc%3A0x56789abcdef01234!2sElm%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
