@@ -1,7 +1,8 @@
 import React from 'react';
-import { useDrop } from 'react-dnd';
+import { useDrag, useDrop } from 'react-dnd';
 import { ItemTypes } from '../dndTypes';
 
+/* Remove drop zone */
 function RemoveZone({ removeFavorite }) {
     const [{ isOver, canDrop }, drop] = useDrop({
         accept: [ItemTypes.FAVORITE],
@@ -36,6 +37,59 @@ function RemoveZone({ removeFavorite }) {
     );
 }
 
+/* Single favorite item */
+function FavoriteItem({ property, removeFavorite}) {
+    const [{ isDragging }, drag] = useDrag({
+        type: ItemTypes.FAVORITE,
+        item: { id: property.id},
+        collect: (monitor) => ({
+            isDragging: monitor.isDragging(),
+        }),
+    });
+
+    return (
+        <li
+            ref={drag}
+            style={{
+                marginBottom: '1rem',
+                borderBottom: '1px solid #ddd',
+                paddingBottom: '0.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                opacity: isDragging ? 0.5 : 1,
+                cursor: 'grab',
+            }}
+        >
+            <img
+                src={property.picture}
+                alt={`${property.type} at ${property.location}`}
+                style={{
+                    width: '80px',
+                    height: '50px',
+                    objectFit: 'cover',
+                    borderRadius: '4px',
+                    marginRight: '0.5rem',
+                }}
+            />
+
+            <div>
+                <strong>{property.type}</strong>
+                <br />
+                ${property.price.toLocalesString()}
+            </div>
+
+            <button
+                onClick={() => removeFavorite(property.id)}
+                style={{ marginLeft: 'auto' }}
+                aria-label='Remove from favourites'
+            >
+                ❌
+            </button>        
+        </li>    
+    );
+}
+
+/* Main favorite component */
 export default function Favorites({
     favorites,
     addFavorite,
@@ -69,6 +123,7 @@ export default function Favorites({
             aria-label="Favorites List Drop Area"
         >
             <h2>Favorites</h2>
+
             {favorites.length === 0 ? (
                 <p>No favorite properties yet. Drag properties here or use the button.</p>
             ) : (
@@ -83,37 +138,21 @@ export default function Favorites({
                     }}
                 >
                     {favorites.map((property) => (
-                        <li
+                       <FavoriteItem
                             key={property.id}
-                            style={{
-                                marginBottom: '1rem',
-                                borderBottom: '1px solid #ddd',
-                                paddingBottom: '0.5rem',
-                                display: 'flex',
-                                alignItems: 'center',    
-                            }}
-                        >
-                            <img
-                                src={property.picture}
-                                alt={`${property.type} at ${property.location}`}
-                                style={{ width: '80px', height: '50px', objectFit: 'cover', borderRadius: '4px', marginRight: '0.5rem'}}
-                            />
-                            <strong>{property.type}</strong> -${property.price.toLocaleString()}
-                            <button
-                                onClick={() => removeFavorite(property.id)}
-                                style={{ marginLeft: 'auto' }}
-                                aria-label={`Remove ${property.type} from favorites`}
-                            >
-                              ❌    
-                            </button>    
-                        </li>        
+                            property={property}
+                            removeFavorite={removeFavorite}
+                        />
                     ))}
                 </ul>
-                <button onClick={clearFavorites} aria-label="Clear all favorites" style={{ marginTop: '1rem' }}>
+
+                <button onClick={clearFavorites} 
+                        aria-label="Clear all favorites" 
+                        style={{ marginTop: '1rem' }}
+                >
                     Clear Favorites    
                 </button>
 
-                {/* Remove drop zone to drag favorites onto for removing */}
                 <RemoveZone removeFavorite={removeFavorite}/>    
             </>
         )}    
