@@ -98,7 +98,7 @@ export default function Favourites({
                                 alt={`${property.type} at ${property.location}`}
                                 style={{ width: '80px', height: '50px', objectFit: 'cover', borderRadius: '4px', marginRight: '0.5rem'}}
                             />
-                            <strong>{property.type}</strong> -${property.price.toLocalString()}
+                            <strong>{property.type}</strong> -${property.price.toLocaleString()}
                             <button
                                 onClick={() => removeFavorite(property.id)}
                                 style={{ marginLeft: 'auto' }}

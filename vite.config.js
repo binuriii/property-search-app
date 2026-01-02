@@ -7,7 +7,7 @@ export default defineConfig({
 
   test: {
     //Use jsdom environment for DOM testing
-    enviroment: 'jsdom',
+    environment: 'jsdom',
     //Provide global
     globals: true,
     //jest-dom setup file

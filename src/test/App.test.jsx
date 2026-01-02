@@ -56,8 +56,8 @@ test('clears all favorites', async () => {
     await userEvent.click(addButtons[0]);
     await userEvent.click(addButtons[1]);
 
-    const clearButtons = screen.getByRole('buttons', { name: /Clear all favorites/i });
-    await userEvent.click(clearButtons);
+    const clearButton = screen.getByRole('button', { name: /Clear all favorites/i });
+    await userEvent.click(clearButton);
 
     const noFavoritesText = screen.getByText(/No favorite properties yet/i);
     expect(noFavoritesText).toBeInTheDocument();
