@@ -36,6 +36,7 @@ export default function PropertyCard({
             <Link to={`/property/${property.id}`}>
                 <img
                     src={property.picture}
+                    alt={`${property.type} at ${property.location}`}
                     style={{ width: '100%',
                              height: '180px',
                              objectFit: 'cover',
