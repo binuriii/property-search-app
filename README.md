@@ -1,4 +1,4 @@
-# React + Vite
+# Property Search App
 
 ## What this app does
 
