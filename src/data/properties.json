@@ -1,115 +1,196 @@
 {
-	"properties": [
-        {
-            "id":"prop1",
-			"type":"House",
-            "bedrooms":3,
-			"price":750000,
-			"tenure":"Freehold",
-			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
-			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"images/prop1pic1small.jpg",
-			"url":"properties/prop1.html",
-            "added": {
-                "month":"October",
-                "day":12,
-                "year":2022
-            }
-        },
-		{
-            "id":"prop2",
-			"type":"Flat",
-            "bedrooms":2,
-			"price":399995,
-			"tenure":"Freehold",
-			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
-			"location":"Crofton Road Orpington BR6",
-			"picture":"images/prop2pic1small.jpg",
-			"url":"properties/prop2.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
-        },
-        {
-            "id": "prop3",
-			"type": "House",
-            "bedrooms": 4,
-			"price": 850000,
-			"tenure": "Leasehold",
-            "description": "Spacious four-bedroom detached house with a large garden and modern kitchen in a quiet neighborhood...",
-			"location": "Green Lane, Bromley BR1",
-			"picture": "images/prop3pic1small.jpg",
-			"url": "properties/prop3.html",
-            "added": {
-                "month":"March",
-                "day": 18,
-                "year":2022
-            }
-        },
-        {
-            "id":"prop4",
-			"type":"Flat",
-            "bedrooms":1,
-			"price":350550,
-			"tenure":"Freehold",
-            "description": "Modern one-bedroom flat with balcony and city views located close to local amenities and transport...",
-			"location":"High Street, Orpington BR5",
-			"picture":"images/prop4pic1small.jpg",
-			"url":"properties/prop4.html",
-            "added": {
-                "month":"November",
-                "day":14,
-                "year":2022
-            }
-        },
-        {
-            "id":"prop5",
-			"type":"House",
-            "bedrooms":5,
-			"price":1350000,
-			"tenure":"Freehold",
-            "description": "Luxurious five-bedroom detached house with swimming pool and landscaped gardens in an exclusive area...",
-			"location":"Oakwood Avenue, Bromley BR2",
-			"picture":"images/prop5pic1small.jpg",
-			"url":"properties/prop5.html",
-            "added": {
-                "month":"September",
-                "day":14,
-                "year":2022
-            }
-        },
-        {
-            "id": "prop6",
-			"type": "Flat",
-            "bedrooms": 3,
-			"price": 400000,
-			"tenure": "Freehold",
-            "description": "Three-bedroom flat with large living area and private parking in a gated community...",
-			"location": "Station Road, Orpington BR5",
-			"picture": "images/prop6pic1small.jpg",
-			"url": "properties/prop6.html",
-            "added": {
-                "month":"December",
-                "day":22,
-                "year":2022
-            }
-        },
-        {
-            "id":"prop7",
-			"type":"House",
-            "bedrooms":2,
-			"price":425000,
-			"tenure":"Freehold",
-            "description": "Cozy two-bedroom terraced house with a private garden and modern interior close to local schools...",
-			"location":"Elm Street, Orpington BR6",
-			"picture":"images/prop7pic1small.jpg",
-			"url":"properties/prop7.html",
-            "added": {
-                "month":"October",
-                "day":14,
-                "year":2022
-            }
-        }
-]}
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "House",
+      "bedrooms": 3,
+      "price": 750000,
+      "tenure": "Freehold",
+      "description": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland...",
+      "longDescription": "This attractive three bedroom semi-detached family home offers spacious living with two receptions and a fitted kitchen/breakfast room. Additional features include a conservatory, utility room, cloakroom, double glazing, and gas central heating. Perfectly located close to Petts Wood station and local amenities.",
+      "location": "Petts Wood Road, Petts Wood, Orpington BR5",
+      "pictures": [
+        "images/prop1picture1.jpg",
+        "images/prop1picture2.jpg",
+        "images/prop1picture3.jpg",
+        "images/prop1picture4.jpg",
+        "images/prop1picture5.jpg",
+        "images/prop1picture6.jpg"
+      ],
+      "floorPlan": "images/prop1floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.540198242766!2d0.058846315817271176!3d51.3953497796175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86be45dce85%3A0x90b6a669095b34f7!2sPetts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin",
+      "picture": "images/prop1pic1small.jpg",
+      "url": "properties/prop1.html",
+      "added": {
+        "month": "October",
+        "day": 12,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop2",
+      "type": "Flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "tenure": "Freehold",
+      "description": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat...",
+      "longDescription": "This modern two-bedroom flat features an open plan kitchen/living area with integrated appliances and bi-folding doors leading to a private courtyard garden. It includes two bathrooms, solid wooden floors, and a 10-year building guarantee.",
+      "location": "Crofton Road Orpington BR6",
+      "pictures": [
+        "images/prop2picture1.jpg",
+        "images/prop2picture2.jpg",
+        "images/prop2picture3.jpg",
+        "images/prop2picture4.jpg",
+        "images/prop2picture5.jpg",
+        "images/prop2picture6.jpg",
+        "images/prop2picture7.jpg"
+      ],
+      "floorPlan": "images/prop2floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.110304682688!2d0.05678331581727123!3d51.40321217962028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86b56543e65%3A0x7a5ec5e235a2b9c2!2sCrofton%20Rd%2C%20Orpington!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
+      "picture": "images/prop2pic1small.jpg",
+      "url": "properties/prop2.html",
+      "added": {
+        "month": "September",
+        "day": 14,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop3",
+      "type": "House",
+      "bedrooms": 4,
+      "price": 850000,
+      "tenure": "Leasehold",
+      "description": "Spacious four-bedroom detached house with a large garden and modern kitchen in a quiet neighborhood...",
+      "longDescription": "This spacious four-bedroom detached house offers a large garden perfect for families and entertaining. The modern kitchen is equipped with high-end appliances, and the open-plan living area features lots of natural light. The property includes a garage and off-street parking.",
+      "location": "Green Lane, Bromley BR1",
+      "pictures": [
+        "images/prop3picture1.jpg",
+        "images/prop3picture2.jpg",
+        "images/prop3picture3.jpg",
+        "images/prop3picture4.jpg",
+        "images/prop3picture5.jpg",
+        "images/prop3picture6.jpg",
+        "images/prop3picture7.jpg"
+      ],
+      "floorPlan": "images/prop3floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.312531276937!2d0.02246531581726156!3d51.40383957961887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5c145607a21%3A0x27de2d1db7d5a868!2sGreen%20Lane%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
+      "picture": "images/prop3pic1small.jpg",
+      "url": "properties/prop3.html",
+      "added": {
+        "month": "July",
+        "day": 20,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop4",
+      "type": "Flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "tenure": "Freehold",
+      "description": "Modern one-bedroom flat with balcony and city views located close to local amenities and transport...",
+      "longDescription": "This modern one-bedroom flat includes a balcony with stunning city views, open-plan kitchen/living area, and is ideally located near shops and transport links. The building offers secure entry and communal gardens.",
+      "location": "High Street, Orpington BR5",
+      "pictures": [
+        "images/prop4picture1.jpg",
+        "images/prop4picture2.jpg",
+        "images/prop4picture3.jpg",
+        "images/prop4picture4.jpg",
+        "images/prop4picture5.jpg",
+        "images/prop4picture6.jpg"
+      ],
+      "floorPlan": "images/prop4floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.345512789832!2d0.062345315817271!3d51.4049371796177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86c84562d9d%3A0x27e3a5f1a2f33e25!2sHigh%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
+      "picture": "images/prop4pic1small.jpg",
+      "url": "properties/prop4.html",
+      "added": {
+        "month": "November",
+        "day": 5,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop5",
+      "type": "House",
+      "bedrooms": 5,
+      "price": 1200000,
+      "tenure": "Freehold",
+      "description": "Luxurious five-bedroom detached house with swimming pool and landscaped gardens in an exclusive area...",
+      "longDescription": "This luxurious five-bedroom detached house features a private swimming pool, landscaped gardens, spacious living areas, and a modern kitchen with high-end appliances. The property is situated in an exclusive neighborhood offering privacy and convenience.",
+      "location": "Oakwood Avenue, Bromley BR2",
+      "pictures": [
+        "images/prop5picture1.jpg",
+        "images/prop5picture2.jpg",
+        "images/prop5picture3.jpg",
+        "images/prop5picture4.jpg",
+        "images/prop5picture5.jpg",
+        "images/prop5picture6.jpg",
+        "images/prop5picture7.jpg"
+      ],
+      "floorPlan": "images/prop5floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.789132218434!2d0.045789315817268!3d51.40123457961982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5b7c24571db%3A0x12d4e7f2b4b2d1e7!2sOakwood%20Avenue%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
+      "picture": "images/prop5pic1small.jpg",
+      "url": "properties/prop5.html",
+      "added": {
+        "month": "August",
+        "day": 15,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop6",
+      "type": "Flat",
+      "bedrooms": 3,
+      "price": 550000,
+      "tenure": "Leasehold",
+      "description": "Three-bedroom flat with large living area and private parking in a gated community...",
+      "longDescription": "This three-bedroom flat offers a spacious living area, modern kitchen, and private parking space. Located in a gated community, it provides security and convenient access to local amenities.",
+      "location": "Station Road, Orpington BR5",
+      "pictures": [
+        "images/prop6picture1.jpg",
+        "images/prop6picture2.jpg",
+        "images/prop6picture3.jpg",
+        "images/prop6picture4.jpg",
+        "images/prop6picture5.jpg",
+        "images/prop6picture6.jpg"
+      ],
+      "floorPlan": "images/prop6floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.223456789321!2d0.055678315817270!3d51.3961234796189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86a23456b7d%3A0x12345abcd6789ef0!2sStation%20Road%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
+      "picture": "images/prop6pic1small.jpg",
+      "url": "properties/prop6.html",
+      "added": {
+        "month": "December",
+        "day": 1,
+        "year": 2022
+      }
+    },
+    {
+      "id": "prop7",
+      "type": "House",
+      "bedrooms": 2,
+      "price": 425000,
+      "tenure": "Freehold",
+      "description": "Cozy two-bedroom terraced house with a private garden and modern interior close to local schools...",
+      "longDescription": "This cozy two-bedroom terraced house offers a private garden, modern interior finishes, and is located close to local schools and amenities. Ideal for small families or first-time buyers.",
+      "location": "Elm Street, Orpington BR6",
+      "pictures": [
+        "images/prop7picture1.jpg",
+        "images/prop7picture2.jpg",
+        "images/prop7picture3.jpg",
+        "images/prop7picture4.jpg",
+        "images/prop7picture5.jpg",
+        "images/prop7picture6.jpg"
+      ],
+      "floorPlan": "images/prop7floorplan.jpg",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.567891234567!2d0.060123315817271!3d51.397891234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86d34567abc%3A0x56789abcdef01234!2sElm%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
+      "picture": "images/prop7pic1small.jpg",
+      "url": "properties/prop7.html",
+      "added": {
+        "month": "October",
+        "day": 22,
+        "year": 2022
+      }
+    }
+  ]
+}
