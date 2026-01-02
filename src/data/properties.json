@@ -17,7 +17,7 @@
         "/images/prop1picture5.jpg",
         "/images/prop1picture6.jpg"
       ],
-      "floorPlan": "images/prop1floorplan.jpg",
+      "floorPlan": "/images/prop1floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.540198242766!2d0.058846315817271176!3d51.3953497796175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86be45dce85%3A0x90b6a669095b34f7!2sPetts%20Wood%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin",
       "picture": "images/prop1pic1small.jpg",
       "url": "properties/prop1.html",
@@ -42,10 +42,9 @@
         "/images/prop2picture3.jpg",
         "/images/prop2picture4.jpg",
         "/images/prop2picture5.jpg",
-        "/images/prop2picture6.jpg",
-        "/images/prop2picture7.jpg"
+        "/images/prop2picture6.jpg"
       ],
-      "floorPlan": "images/prop2floorplan.jpg",
+      "floorPlan": "/images/prop2floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.110304682688!2d0.05678331581727123!3d51.40321217962028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86b56543e65%3A0x7a5ec5e235a2b9c2!2sCrofton%20Rd%2C%20Orpington!5e0!3m2!1sen!2sin!4v1680000000001!5m2!1sen!2sin",
       "picture": "images/prop2pic1small.jpg",
       "url": "properties/prop2.html",
@@ -70,10 +69,9 @@
         "/images/prop3picture3.jpg",
         "/images/prop3picture4.jpg",
         "/images/prop3picture5.jpg",
-        "/images/prop3picture6.jpg",
-        "/images/prop3picture7.jpg"
+        "/images/prop3picture6.jpg"
       ],
-      "floorPlan": "images/prop3floorplan.jpg",
+      "floorPlan": "/images/prop3floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.312531276937!2d0.02246531581726156!3d51.40383957961887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5c145607a21%3A0x27de2d1db7d5a868!2sGreen%20Lane%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000002!5m2!1sen!2sin",
       "picture": "images/prop3pic1small.jpg",
       "url": "properties/prop3.html",
@@ -100,7 +98,7 @@
         "/images/prop4picture5.jpg",
         "/images/prop4picture6.jpg"
       ],
-      "floorPlan": "images/prop4floorplan.jpg",
+      "floorPlan": "/images/prop4floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.345512789832!2d0.062345315817271!3d51.4049371796177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86c84562d9d%3A0x27e3a5f1a2f33e25!2sHigh%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000003!5m2!1sen!2sin",
       "picture": "images/prop4pic1small.jpg",
       "url": "properties/prop4.html",
@@ -125,10 +123,9 @@
         "/images/prop5picture3.jpg",
         "/images/prop5picture4.jpg",
         "/images/prop5picture5.jpg",
-        "/images/prop5picture6.jpg",
-        "/images/prop5picture7.jpg"
+        "/images/prop5picture6.jpg"
       ],
-      "floorPlan": "images/prop5floorplan.jpg",
+      "floorPlan": "/images/prop5floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.789132218434!2d0.045789315817268!3d51.40123457961982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a5b7c24571db%3A0x12d4e7f2b4b2d1e7!2sOakwood%20Avenue%2C%20Bromley%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000004!5m2!1sen!2sin",
       "picture": "images/prop5pic1small.jpg",
       "url": "properties/prop5.html",
@@ -155,7 +152,7 @@
         "/images/prop6picture5.jpg",
         "/images/prop6picture6.jpg"
       ],
-      "floorPlan": "images/prop6floorplan.jpg",
+      "floorPlan": "/images/prop6floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.223456789321!2d0.055678315817270!3d51.3961234796189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86a23456b7d%3A0x12345abcd6789ef0!2sStation%20Road%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000005!5m2!1sen!2sin",
       "picture": "images/prop6pic1small.jpg",
       "url": "properties/prop6.html",
@@ -182,7 +179,7 @@
         "/images/prop7picture5.jpg",
         "/images/prop7picture6.jpg"
       ],
-      "floorPlan": "images/prop7floorplan.jpg",
+      "floorPlan": "/images/prop7floorplan.jpg",
       "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.567891234567!2d0.060123315817271!3d51.397891234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a86d34567abc%3A0x56789abcdef01234!2sElm%20Street%2C%20Orpington%2C%20UK!5e0!3m2!1sen!2sin!4v1680000000006!5m2!1sen!2sin",
       "picture": "images/prop7pic1small.jpg",
       "url": "properties/prop7.html",
