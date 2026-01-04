@@ -112,10 +112,11 @@ export default function Favorites({
             ref={drop} 
             style={{
                 flex: '0 0 300px',
-                border: '2px dashed #007bff',
+                marginRight: '10px',
+                border: '2px dashed #21ba1eff',
                 padding: '1rem',
                 minHeight: '400px',
-                backgroundColor: isOver ? '#e6f0ff': '#f9f9f9',
+                backgroundColor: isOver ? '#e6f0ff': '#f8fff7ff',
                 borderRadius: '8px',
                 display: 'flex',
                 flexDirection: 'column',
