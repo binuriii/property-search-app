@@ -49,11 +49,16 @@ export default function SearchPage({
             }
 
 
-            // Filter by postcode area
+            // Filter by postcode area (use code which is last part)
             if (searchFilters.postcodeArea) {
-                if (!property.location.toLowerCase().startsWith(searchFilters.postcodeArea.toLowerCase()))
+                const parts = property.location.trim().split(" ");
+                const propertyArea = parts[parts.length - 1].toLowerCase();  //br5
+
+                if ( !propertyArea.startsWith(searchFilters.postcodeArea.toLowerCase())) {
                     return false;
+                }
             }
+            
             return true;
         });
     }, [properties, searchFilters]);
