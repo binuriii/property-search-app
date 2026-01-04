@@ -1,6 +1,6 @@
 {
-  "homepage": "https://binuriii.github.io/property-search-app",
   "name": "property-search-app",
+  "homepage": "https://binuriii.github.io/property-search-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,9 +11,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
@@ -27,7 +26,6 @@
     "react-router-dom": "^7.11.0",
     "react-tabs": "^6.1.0"
   },
-  
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@testing-library/jest-dom": "^6.9.1",
