@@ -83,7 +83,7 @@ function FavoriteItem({ property, removeFavorite}) {
                 style={{ marginLeft: 'auto' }}
                 aria-label='Remove from favourites'
             >
-                ❌
+                ✖︎
             </button>        
         </li>    
     );
