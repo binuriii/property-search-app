@@ -21,7 +21,7 @@ button {
 }
 
 button:hover {
-  background-color: blue;
+  background-color: rgb(120, 161, 113);
 }
 
 @media (max-width: 768px) {
